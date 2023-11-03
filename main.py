@@ -14,12 +14,12 @@ from turbo_allcapsbot import GPT35TurboAllCapsBot
 from turbo_vs_claude import GPT35TurbovsClaudeBot
 
 # Echo bot is a very simple bot that just echoes back the user's last message.
-bot = EchoBot()
+#bot = EchoBot()
 
 # A sample bot that showcases the capabilities the protocol provides. Please see the
 # following link for the full set of available message commands:
 # https://github.com/poe-platform/server-bot-quick-start/blob/main/catbot/catbot.md
-# bot = CatBot()
+bot = CatBot()
 
 # A bot that uses Poe's GPT-3.5-Turbo bot, but makes all messages ALL CAPS.
 # Good simple example of using another bot using Poe's bot query API.
